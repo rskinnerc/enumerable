@@ -20,6 +20,8 @@ list = MyList.new(1, 2, 3, 4)
 puts list.all? {|e| e < 5}
 puts list.all? {|e| e > 5}
 
+puts list.any? {|e| e == 2} # true
+puts list.any? {|e| e == 5} # false
 
 
 # Each class and module should has a separate .rb file.
