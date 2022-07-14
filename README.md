@@ -1,7 +1,6 @@
 # Enumerable
 
-> Description the project.
-
+> In this project we have implemented our own enumerable with the methods all?, any? and filter using Ruby classes and modules
 
 ## Built With
 
@@ -9,14 +8,9 @@
 - rubocop
 - gems
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
-**About app**
+**This is a program implementing a custom enumerable all?, any? and filter methods.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -25,14 +19,14 @@ To get a local copy up and running follow these simple example steps.
 - Having ruby installed in your machine
 
 ### setup
-clone the repository `https://github.com/saifullah767/Enumerable.git`
+clone the repository `https://github.com/rskinnerc/enumerable.git`
 
 ### Install
 
 `bundle install`
 
 ### Usage
-In the terminal Run: `ruby index.rb`
+In the terminal Run: `ruby my_list.rb`
 
 
 
