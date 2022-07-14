@@ -1,20 +1,22 @@
+require './my_enumerable'
+
 class MyList
+  include MyEnumerable
+
   def initialize(*list)
     @list = list
   end
 
-
-  def each 
+  def each
     li = 0
     while li < @list.length
       yield @list[li]
       li += 1
     end
   end
-
 end
 
-list = MyList.new(1, 2, 3, 4)
+# list = MyList.new(1, 2, 3, 4)
 
 
 # Each class and module should has a separate .rb file.
@@ -27,9 +29,9 @@ list = MyList.new(1, 2, 3, 4)
 
 # Create a module MyEnumerable that implements the following methods 
 # (they should have the same funcionality as methods in Enumerable):
-#all?
-#any?
-#filter
+# all?
+# any?
+# filter
 
 
 
