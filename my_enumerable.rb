@@ -1,5 +1,5 @@
 module MyEnumerable
-  def all?
+  def all? 
     each do |x| 
       return false unless yield(x)
     end
